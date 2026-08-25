@@ -1,0 +1,3 @@
+build_from:
+  amd64: "quantumentangledandy/neolink:latest"
+  aarch64: "quantumentangledandy/neolink:latest"
