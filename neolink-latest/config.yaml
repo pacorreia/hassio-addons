@@ -3,7 +3,7 @@ description: "Will run latest Neolink directly as App in HAOS"
 version: "0.1.1"
 slug: "neolink-latest"
 url: "https://github.com/pacorreia/hassio-addons"
-image: "docker.io/pfmc82/neolink:latest"
+image: "docker.io/pfmc82/neolink:main"
 arch:
   - amd64
   - aarch64
