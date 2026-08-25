@@ -1,0 +1,4 @@
+# https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
+name: pacorreia Home Assistant Addons repository
+url: 'https://github.com/pacorreia/hassio-addons'
+maintainer: Paulp Correia <pcportugal@gmail.com>

@@ -1,0 +1,19 @@
+name: "Neolink-latest"
+description: "Will run latest Neolink directly as App in HAOS"
+version: "0.1.1"
+slug: "neolink-latest"
+image: "docker.io/pfmc82/neolink:latest"
+arch:
+  - amd64
+host_network: true
+map:
+  - type: addon_config
+    read_only: False
+  - type: homeassistant_config
+    read_only: False
+options:
+  mode: rtsp
+  log: info
+schema:
+  mode: list(rtsp|mqtt|dual)
+  log: list(info|warn|error|debug)
