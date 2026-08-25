@@ -5,6 +5,7 @@ slug: "neolink-latest"
 image: "docker.io/pfmc82/neolink:latest"
 arch:
   - amd64
+  - aarch64‎
 host_network: true
 map:
   - type: addon_config
