@@ -2,16 +2,15 @@ name: "Neolink-latest"
 description: "Will run latest Neolink directly as App in HAOS"
 version: "0.1.1"
 slug: "neolink-latest"
+url: "https://github.com/pacorreia/hassio-addons"
 image: "docker.io/pfmc82/neolink:latest"
 arch:
   - amd64
-  - aarch64‎
+  - aarch64
 host_network: true
 map:
-  - type: addon_config
-    read_only: False
-  - type: homeassistant_config
-    read_only: False
+  - addon_config:rw
+  - homeassistant_config:rw
 options:
   mode: rtsp
   log: info
