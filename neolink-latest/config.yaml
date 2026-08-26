@@ -9,8 +9,10 @@ arch:
   - aarch64
 host_network: true
 map:
-  - config:rw
-  - homeassistant_config:rw
+  - type: addon_config
+    read_only: False
+  - type: homeassistant_config
+    read_only: False
 options:
   mode: rtsp
   log: info
