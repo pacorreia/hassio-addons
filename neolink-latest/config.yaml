@@ -17,8 +17,9 @@ options:
   mode: rtsp
   log: info
 ulimits:
-  soft: 65536
-  hard: 65536
+  nofile:
+    soft: 65536
+    hard: 65536
 schema:
   mode: list(rtsp|mqtt|dual)
   log: list(info|warn|error|debug)
